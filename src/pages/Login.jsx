@@ -71,16 +71,16 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            {loading ? (
+           {loading ? (
               <SpecialLoadingButton content={"Logged In"} />
-            ) : (
+            ) : ( 
               <Button
                 onClick={() => handleLogin(email, password)}
                 className="w-full"
               >
                 Login
               </Button>
-            )}
+          )} 
           </div>
         </div>
       </div>

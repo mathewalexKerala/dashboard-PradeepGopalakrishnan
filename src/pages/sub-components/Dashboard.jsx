@@ -126,7 +126,7 @@ const Dashboard = () => {
                   <Button>Visit Portfolio</Button>
                 </CardFooter>
               </Card>
-              <Card className="flex flex-col justify-center">
+              {/* <Card className="flex flex-col justify-center">
                 <CardHeader className="pb-2">
                   <CardTitle>Projects Completed</CardTitle>
                   <CardTitle className="text-6xl">
@@ -136,7 +136,7 @@ const Dashboard = () => {
                 <CardFooter>
                   <Button onClick={gotoMangeProjects}>Manage Projects</Button>
                 </CardFooter>
-              </Card>
+              </Card> */}
               <Card className="flex flex-col justify-center">
                 <CardHeader className="pb-2">
                   <CardTitle>Skills</CardTitle>
@@ -149,7 +149,7 @@ const Dashboard = () => {
                 </CardFooter>
               </Card>
             </div>
-            <Tabs>
+            {/* <Tabs>
               <TabsContent>
                 <Card>
                   <CardHeader className="px-7">
@@ -221,7 +221,7 @@ const Dashboard = () => {
                   </CardContent>
                 </Card>
               </TabsContent>
-            </Tabs>
+            </Tabs> */}
             <Tabs>
               <TabsContent>
                 <Card>
@@ -251,7 +251,7 @@ const Dashboard = () => {
               <TabsContent className="grid min-[1050px]:grid-cols-2 gap-4">
                 <Card>
                   <CardHeader className="px-7">
-                    <CardTitle>Software Applications</CardTitle>
+                    <CardTitle>Gallery Images</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <Table>
@@ -310,7 +310,7 @@ const Dashboard = () => {
                     </Table>
                   </CardContent>
                 </Card>
-                <Card>
+                {/* <Card>
                   <CardHeader className="px-7 flex items-center justify-between flex-row">
                     <CardTitle>Timeline</CardTitle>
                     <Button onClick={gotoMangeTimeline} className="w-fit">
@@ -355,7 +355,7 @@ const Dashboard = () => {
                       </TableBody>
                     </Table>
                   </CardContent>
-                </Card>
+                </Card> */}
               </TabsContent>
             </Tabs>
           </div>

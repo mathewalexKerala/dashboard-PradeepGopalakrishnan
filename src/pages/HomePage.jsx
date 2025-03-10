@@ -76,7 +76,7 @@ const HomePage = () => {
             </Tooltip>
           </TooltipProvider>
 
-          <TooltipProvider>
+          {/* <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
@@ -93,7 +93,7 @@ const HomePage = () => {
               </TooltipTrigger>
               <TooltipContent side="right">Add Project</TooltipContent>
             </Tooltip>
-          </TooltipProvider>
+          </TooltipProvider> */}
 
           <TooltipProvider>
             <Tooltip>
@@ -126,10 +126,10 @@ const HomePage = () => {
                   onClick={() => setActive("Add Uses")}
                 >
                   <LayoutGrid className="h-5 w-5" />
-                  <span className="sr-only">Add Uses</span>
+                  <span className="sr-only">Add Gallery Images</span>
                 </Link>
               </TooltipTrigger>
-              <TooltipContent side="right">Add Uses</TooltipContent>
+              <TooltipContent side="right">Add Gallery Images</TooltipContent>
             </Tooltip>
           </TooltipProvider>
           <TooltipProvider>
@@ -188,7 +188,7 @@ const HomePage = () => {
           </TooltipProvider>
         </nav>
         <nav className="mt-auto flex flex-col items-center gap-4 px-2 sm:py-5">
-          <TooltipProvider>
+          {/* <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
@@ -201,7 +201,7 @@ const HomePage = () => {
               </TooltipTrigger>
               <TooltipContent side="right">Logout</TooltipContent>
             </Tooltip>
-          </TooltipProvider>
+          </TooltipProvider> */}
         </nav>
       </aside>
       <header className="sticky top-0 z-30 flex h-14 items-center gap-4 border-b bg-background px-4 sm:static sm:h-auto sm:border-0 sm:bg-transparent sm:px-6 max-[900px]:h-[100px]">
